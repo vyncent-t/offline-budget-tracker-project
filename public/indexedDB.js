@@ -25,7 +25,7 @@ function saveRec(rec) {
     const db = request.result
     const transaction = db.transaction(["userBudget"], "readwrite");
     const userBudgetStore = transaction.objectStore("userBudget")
-    userBudgetStore.add({ rec.name, rec.value, date: rec.date })
+    userBudgetStore.add({ rec })
 }
 
 function parseDB() {
