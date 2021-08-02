@@ -10,4 +10,5 @@ This should resemble something similar to a bank statement with transactions to 
 
 This app was able to explore the browser kept data through indexedBD along with MongoDB and Mongoose.
 
-LINK:
+LINK: https://git.heroku.com/offline-budget-project.git
+
